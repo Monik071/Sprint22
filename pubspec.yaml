@@ -1,4 +1,4 @@
-name: turisbogota
+name: app_mascotas
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -54,15 +54,14 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-    -assets/images/
+  assets:
+    - images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,16 +75,16 @@ assets:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: titulo
+      fonts:
+        - asset: fonts/Lato-BlackItalic.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
+    - family: contenido
+      fonts:
+        - asset: fonts/LibreBodoni-Italic-VariableFont_wght.ttf
+  #       - asset: fonts/LibreBodoni-Italic-VariableFont_wght.ttf
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
