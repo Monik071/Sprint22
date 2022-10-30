@@ -1,5 +1,7 @@
 import 'package:app_mascotas/vistas/tituloprincipal.dart';
 import 'package:app_mascotas/vistas/vistalogin.dart';
+//import 'package:turistbogota/vistas/tituloprincipal.dart';
+//import 'package:turistbogota/vistas/vistalogin.dart';
 import 'package:flutter/material.dart';
 
 class VistaPrincipal extends StatefulWidget {

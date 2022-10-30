@@ -16,13 +16,13 @@ class _TituloState extends State<Titulo> {
           width: 200,
           height: 100,
 
-          margin: EdgeInsets.only(top: 140, left: 20),
-          child: Text('Happy Pet Sc',
+          margin: EdgeInsets.only(top: 180),
+          child: Text('Bogota Turist',
             style: TextStyle(
               fontSize: 40,
               fontWeight: FontWeight.bold,
               fontFamily: 'titulo',
-              color: Colors.yellow,
+              color: Colors.white,
 
             ),
             textAlign: TextAlign.end,
@@ -33,10 +33,10 @@ class _TituloState extends State<Titulo> {
         Container(
           width: 130,
           height: 100,
-          margin: EdgeInsets.only(top: 100),
+          margin: EdgeInsets.only(top:180),
           decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/GatoGalactico.jpg'),
+                image: AssetImage('images/LogoTuristBogota.jpg'),
 
               )
           ),

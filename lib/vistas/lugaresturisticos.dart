@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ListaMascotas extends StatefulWidget {
-  const ListaMascotas({Key? key}) : super(key: key);
+class lugaresturisticos extends StatefulWidget {
+  const lugaresturisticos({Key? key}) : super(key: key);
 
   @override
-  State<ListaMascotas> createState() => _ListaMascotasState();
+  State<lugaresturisticos> createState() => _LugaresTuristicosState();
 }
 
-class _ListaMascotasState extends State<ListaMascotas> {
+class _LugaresTuristicosState extends State<lugaresturisticos> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,7 +17,7 @@ class _ListaMascotasState extends State<ListaMascotas> {
           Container(
             color: Color.fromARGB(150, 255, 0, 0),
             child: ListTile(
-              title: Text('Titulo del list'),
+              title: Text('lugares de Bogota'),
               subtitle: Text('Contenido'),
               leading: Icon(
                 Icons.add_location_alt_sharp,

@@ -1,5 +1,7 @@
-import 'package:app_mascotas/vistas/listamascotas.dart';
+import 'package:app_mascotas/vistas/lugaresturisticos.dart';
 import 'package:app_mascotas/vistas/tituloprincipal.dart';
+//import 'package:turistbogota/vistas/lugaresturisticos.dart';
+//import 'package:turistbogota/vistas/tituloprincipal.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
@@ -18,7 +20,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.lightBlue,
+        backgroundColor: Colors.yellow,
         body: Padding(
           padding: EdgeInsets.all(2),
           child: ListView(
@@ -26,7 +28,6 @@ class _LoginState extends State<Login> {
           Container(
             child: Titulo(),
             margin: EdgeInsets.only(bottom: 20),
-
           ),
           Container(
             child:Text('Login'
@@ -34,13 +35,10 @@ class _LoginState extends State<Login> {
             ),
             margin: EdgeInsets.only(bottom: 20),
 
-
           ),
             txtusuario(),
             txtclave(),
             btnlogin(),
-
-
         ],
       ),
       ),
@@ -50,7 +48,7 @@ class _LoginState extends State<Login> {
   Container txtusuario(){
     return Container(
       decoration:BoxDecoration(
-        border: Border.all(color:Colors.lightBlueAccent, width: 2),
+        border: Border.all(color:Colors.yellowAccent, width: 2),
         borderRadius: BorderRadius.circular(2),
       ),
       child: TextFormField(
@@ -68,7 +66,7 @@ class _LoginState extends State<Login> {
   Container txtclave() {
     return Container(
         decoration: BoxDecoration(
-          border: Border.all(color: Colors.lightBlueAccent, width: 2),
+          border: Border.all(color: Colors.yellowAccent, width: 2),
           borderRadius: BorderRadius.circular(2),
         ),
         child: TextFormField(
@@ -100,7 +98,7 @@ class _LoginState extends State<Login> {
         cla=clave.text;
         if (usu=='Pipe' && cla=='321'){
           print(usu);
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>ListaMascotas())
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>lugaresturisticos())
           );
         }
       },

@@ -1,6 +1,7 @@
-import 'package:app_mascotas/vistas/listamascotas.dart';
-import 'package:app_mascotas/vistas/vistalogin.dart';
 import 'package:app_mascotas/vistas/vistaprincipal.dart';
+//import 'package:turistbogota/vistas/lugaresturisticos.dart';
+//import 'package:turistbogota/vistas/vistalogin.dart';
+//import 'package:turistbogota/vistas/vistaprincipal.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,19 +14,18 @@ class Inicio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplicacion Mascotas',
+      title: 'Aplicacion TuristBogota',
       home:  Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image:AssetImage('images/FondoGato.jpg')
+                image:AssetImage('images/bienvenidaBogota.jpg')
             ),
           ),
         child: Scaffold(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.yellow,
           //body: ListaMascotas(),
           body:VistaPrincipal()
           //body: Login(),
-
         ),
         ),
       );
