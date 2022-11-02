@@ -4,6 +4,7 @@ import 'package:app_mascotas/vistas/vistaprincipal.dart';
 //import 'package:turistbogota/vistas/vistaprincipal.dart';
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const Inicio());
 }

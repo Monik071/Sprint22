@@ -1,3 +1,4 @@
+import 'package:app_mascotas/vistas/registro.dart';
 import 'package:app_mascotas/vistas/tituloprincipal.dart';
 import 'package:app_mascotas/vistas/vistalogin.dart';
 //import 'package:turistbogota/vistas/tituloprincipal.dart';
@@ -98,6 +99,7 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
       ),
       ),
       onPressed: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context)=>Registro()));
         print('Boton somos');
       },
     );
